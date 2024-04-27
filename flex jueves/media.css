@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.amarillo{
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    padding: 4%;
+}
+.azul{
+    width: 800px;
+    height: 2%;
+    background-color:blue;
+    padding: 4%;
+}
+.rojo{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    padding: 4%;
+}
+@media(max-width:786px){
+    .amarillo{
+        background-color: black;
+        color:w;
+    }
+    .azul{
+        font-size: 48px;
+    }
+    .rojo{
+        width: 40%;
+    }
+}
+@media(min-width:900px){
+    .amarillo{
+        width: 70%;
+    }
+}
